@@ -1,0 +1,22 @@
+<!--  node가 총 1개있습니다. note라는 노드 한개가 있고 note노드 안에 4개의 노드가있다 -->
+<!-- 글자를 숫자로 매핑하는
+ ISO 8859-1 : ASCII에서 발전한 것 
+ EUC-KR : 한국어 인코딩 
+ CP949 : 윈도우에서 EUC-KR가 비슷 
+ Unicode : 좀 더 다양한 문자를 표현, 가장 표준 
+ -->
+<!-- catalog[0].title-->
+
+<?xml version="1.0" encoding = "UTF-8"?>
+<note>
+    <to>Tove</to>  
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
+<CATALOG>
+    <CD>
+        <TITLE>Still got the blues</title>
+        <ARTIST>Gary Moore</ARTIST>
+    </CD>
+</CATALOG>    
